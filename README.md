@@ -1,7 +1,8 @@
 # AWS-Data-Pipeline-with-S3-Lambda-Redshift-SNS-and-QuickSight
 This project demonstrates an end-to-end data pipeline using AWS services such as S3, Lambda, Redshift, SNS, and QuickSight to handle data ingestion, transformation, and visualization.
 
-!['AWS Pipeline'](https://github.com/AdhamAymanElsayed/AWS-Data-Pipeline-with-S3-Lambda-Redshift-SNS-and-QuickSight/blob/main/AWS%20Pipeline.jpeg)
+<img src="https://github.com/AdhamAymanElsayed/AWS-Data-Pipeline-with-S3-Lambda-Redshift-SNS-and-QuickSight/blob/main/AWS%20Pipeline.jpeg" alt="AWS Pipeline" width="600"/>
+
 ## Architecture Overview
 The diagram above depicts a data pipeline that includes the following components:
 
