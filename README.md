@@ -24,7 +24,11 @@ The diagram above depicts a data pipeline that includes the following components
 
 ## How It Works
 1 - Data is uploaded to the S3 Project bucket.
+
 2 - The upload triggers the Lambda function, which processes the data.
+
 3 - Processed data is stored in Redshift, and the relevant S3 buckets (Archive, Inserts, Updates) are populated.
+
 4 - SNS sends notifications regarding the status of data processing.
+
 5 - QuickSight connects to Redshift to visualize the processed data.
